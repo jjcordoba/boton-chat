@@ -1,0 +1,177 @@
+.el-license-container {
+  margin: 20px;
+  padding: 35px;
+  background: #fff;
+  border-radius: 4px;
+}
+.el-license-container .el-license-field {
+  display: block;
+  margin-bottom: 15px;
+}
+.el-license-container .el-license-field input {
+  font-size: 200%;
+  padding: 8px 10px 10px;
+}
+.el-license-container .notice-error,
+.el-license-container div.error {
+  background: rgba(220, 50, 50, 0.11);
+  margin: 0;
+}
+.el-license-container .el-license-title {
+  margin-top: 0;
+  font-size: 30px;
+}
+.el-license-container .el-license-info li {
+  list-style: none;
+  padding: 0;
+}
+.el-license-container .el-license-info-title {
+  width: 150px;
+  display: inline-block;
+  position: relative;
+  padding-right: 5px;
+}
+.el-license-container .el-license-info-title:after {
+  content: ":";
+  position: absolute;
+  right: 2px;
+}
+.el-license-container .el-license-valid,
+.el-license-container .el-license-invalid {
+  padding: 0 5px 2px;
+  color: #fff;
+  background-color: #8fcc77;
+  border-radius: 3px;
+}
+.el-license-container .el-license-invalid {
+  background-color: #f44336;
+}
+.el-license-container .el-license-key {
+  font-weight: 700;
+  opacity: 0.8;
+}
+.el-license-container .el-green-btn {
+  padding: 0 5px 2px;
+  color: #fff;
+  background-color: #8fcc77;
+  border-radius: 3px;
+  text-decoration: none;
+  -webkit-box-shadow: 0 0 3px -1px rgba(0, 0, 0, 0.38);
+  -moz-box-shadow: 0 0 3px -1px rgba(0, 0, 0, 0.38);
+  box-shadow: 0 0 3px -1px rgba(0, 0, 0, 0.38);
+}
+.el-license-container .el-green-btn:hover {
+  color: #fff;
+  background-color: #84bc6c;
+}
+.el-license-container .el-blue-btn {
+  padding: 0 5px 2px;
+  color: #fff;
+  background-color: #20b1d2;
+  border-radius: 3px;
+  text-decoration: none;
+  -webkit-box-shadow: 0 0 3px -1px rgba(0, 0, 0, 0.38);
+  -moz-box-shadow: 0 0 3px -1px rgba(0, 0, 0, 0.38);
+  box-shadow: 0 0 3px -1px rgba(0, 0, 0, 0.38);
+}
+.el-license-container .el-blue-btn:hover {
+  color: #fff;
+  background-color: #219dbf;
+}
+.el-license-container .el-license-field label {
+  display: block;
+  margin-bottom: 5px;
+}
+.el-license-container .el-license-active-btn {
+  margin-top: 25px;
+}
+a.button-alert {
+  background-color:blue ;
+  padding: 10px;
+  margin-right: 15px;
+  color: #ffffff;
+  text-transform: none;
+  text-decoration: none;
+  border-radius: 5px;display: inline-block
+}
+
+a.button-susse {
+  background-color: red;
+    padding: 10px;
+  margin-right: 15px;
+  color: #ffffff;
+  text-transform: none;
+  text-decoration: none;
+  border-radius: 5px;
+ display: inline-block
+}
+
+p.submit {
+  width: 80px;
+  display: inline-block
+}
+input.button.boton_activar:hover{
+  background-color: #20b1d2;
+  color: #000;
+}
+input.button.boton_activar {
+  color: #ffffff;
+  width: 120px;
+  font-size: 20px;
+  background-color: #008000;
+  border-radius: 10px;
+}
+a.button-alert:hover,
+input.button.boton_activar:hover,
+a.button-susse:hover {
+  animation: pulsar 1s ease-out infinite, parpadear 1s infinite;
+}
+
+@keyframes pulsar {
+  0% { transform: scale(1); }
+  50% { transform: scale(0.9); }
+  100% { transform: scale(1); }
+}
+
+@keyframes parpadear {
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+div div h1 {
+  text-align: center;
+  width: 100%;
+  color: #ffffff;
+  margin-top: -px;
+  margin-bottom: 17px;
+  
+}
+
+div div form {
+  width: 100%;
+  text-align: center;
+ /* color: #ffffff;*/
+  
+}
+
+div form label {
+  text-align: center;
+  position: fixed;
+  margin-top: 0px;
+  margin-bottom: 1px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-family: Helvetica;
+}
+
+input.numerowoo {
+  margin-top: 24px;
+}
+
+input.mensajewoo {
+  margin-top: 26px;
+}
+#wpcontent {
+  background: #fff url("https://img.freepik.com/vector-gratis/fondo-azul-modelo-grunge_1409-1359.jpg") no-repeat center center fixed;
+  background-size: cover;
+  }

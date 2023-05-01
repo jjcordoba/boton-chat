@@ -1,0 +1,45 @@
+
+@keyframes parpadear {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.btnproducto {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: transform 0.2s ease-in-out;
+}
+.btnproducto:hover {
+  animation: parpadear 0.5s ease-in-out infinite;
+}
+.btncontact{
+  position:fixed;
+  bottom:40px;
+  right:40px;
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 30px;
+  transition: transform 0.2s ease-in-out;
+}
+.btncontact:hover{
+  animation: parpadear 0.5s ease-in-out infinite;
+}
+div.dc-whatsapp-container {
+  margin-top: 19px;
+}
+

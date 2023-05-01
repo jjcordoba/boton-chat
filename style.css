@@ -1,0 +1,48 @@
+.numerowoo {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.mensajewoo {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.guardar{
+  color: aliceblue;
+  background: #0000ff;
+  border-radius: 20px;
+  border-color: #0000ff;
+  margin: 10px;
+  padding: 5px;
+  font-size: 15px;
+}
+.guardar:hover{
+  color: aliceblue;
+  background: #373094;
+  border-radius: 20px;
+  border-color: transparent;
+  margin: 10px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+dc-whatsapp-container{
+  color: aliceblue;
+  background: #0000ff;
+  border-radius: 20px;
+  border-color: #0000ff;
+  margin: 10px;
+  padding: 5px;
+  font-size: 15px;
+}
+a.btn-producto:hover{
+  color: aliceblue;
+  background: #373094;
+  border-radius: 20px;
+  border-color: transparent;
+  margin: 10px;
+  padding: 10px;
+  font-size: 15px;
+}
